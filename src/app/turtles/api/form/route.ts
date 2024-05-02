@@ -2,11 +2,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { MongoClient } from 'mongodb';
 import clientPromise from '../mongodbConnector';
-import multer from 'multer';
-import { IncomingForm } from 'formidable';
-
-// Configure Multer for file uploads
-const upload = multer({ dest: 'uploads/' });
 
 // Disable Next.js's built-in body parsing
 // export const config = {
