@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 
+
 export default function MenuBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMobileView, setIsMobileView] = useState(false);
@@ -42,8 +43,8 @@ export default function MenuBar() {
     },
     nav: {
       display: isMobileView ? (isMenuOpen ? 'block' : 'none') : 'flex',
-      flexDirection: isMobileView ? 'column' : 'row',
-      position: isMobileView ? 'absolute' : 'static',
+      flexDirection: isMobileView ? 'column' as 'column' : 'row' as 'row',
+      position: isMobileView ? 'absolute' as 'absolute': 'static' as 'static',
       top: isMobileView ? '60px' : 'auto', // Adjust according to the height of the menu bar
       right: isMobileView ? '20px' : 'auto',
       backgroundColor: isMobileView ? '#333' : 'transparent',
