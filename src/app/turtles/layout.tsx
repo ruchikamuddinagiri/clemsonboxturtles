@@ -185,7 +185,7 @@ const MyForm = () => {
     <div className="container mx-auto p-8 bg-white shadow-md rounded">
       
       
-      <h1 className="text-2xl font-bold text-gray-700 mb-4">You've found a turtle from the Clemson-Area Backyard Turtle Project!</h1>
+      <h1 className="text-2xl font-bold text-gray-700 mb-4">You&apos;ve found a turtle from the Clemson-Area Backyard Turtle Project!</h1>
       <p className="mb-8 text-gray-600">Thanks for scanning this Eastern Box Turtle! This turtle is a part of an ongoing Clemson University project through the Forestry and Environmental Conservation department. Dr. Kyle Barrett is the faculty member heading the project. Reach out to him via email if you have questions!</p>
 
       
@@ -195,7 +195,7 @@ const MyForm = () => {
         {/* GPS Record Question */}
         <div>
           <label className="block text-gray-700 text-sm font-semibold mb-2">
-            Are you willing to enable GPS to record the turtle's location?
+            Are you willing to enable GPS to record the turtle&apos;s location?
           </label>
           <div className="flex items-center mb-4">
             <input
