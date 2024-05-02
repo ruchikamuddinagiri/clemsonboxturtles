@@ -41,7 +41,7 @@ const Page = () => {
     cardImage: {
       width: '100%',
       height: '200px',
-      objectFit: 'cover',
+      objectFit: 'cover' as 'cover',
     },
     cardContainer: {
       padding: '2px 16px',
@@ -58,7 +58,7 @@ const Page = () => {
       color: 'white',
       border: 'none',
       padding: '10px 20px',
-      textAlign: 'center',
+      textAlign: 'center' as 'center',
       textDecoration: 'none',
       display: 'inline-block',
       fontSize: '16px',
