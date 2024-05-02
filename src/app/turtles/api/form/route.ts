@@ -9,11 +9,11 @@ import { IncomingForm } from 'formidable';
 const upload = multer({ dest: 'uploads/' });
 
 // Disable Next.js's built-in body parsing
-export const config = {
-  api: {
-    bodyParser: false,
-  },
-};
+// export const config = {
+//   api: {
+//     bodyParser: false,
+//   },
+// };
 
 
 export async function POST(req: Request) {
